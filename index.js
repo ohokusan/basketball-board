@@ -28,6 +28,8 @@ function addScore(team, score) {
 }
 
 function reset(team) {
+    homeScoreEl.style.borderColor = '#080001'
+    guestScoreEl.style.borderColor = '#080001'
     if (team == "home") {
         homeScore = 0
         homeScoreEl.textContent = homeScore
